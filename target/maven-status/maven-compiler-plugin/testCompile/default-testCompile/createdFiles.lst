@@ -1,0 +1,4 @@
+it\IntegrationTestMyPlugin.class
+com\example\SpringExampleApplicationTests.class
+com\example\controller\LoginControllerTest.class
+org\example\TestExampleServlet.class
