@@ -93,271 +93,6 @@
                 <option name="chatInputElements">
                   <list>
                     <ChatInputElement>
-                      <option name="text" value="如何查看秘钥路径" />
-                      <option name="type" value="text" />
-                    </ChatInputElement>
-                  </list>
-                </option>
-                <option name="contextTags">
-                  <list />
-                </option>
-              </ChatRecentQuery>
-              <ChatRecentQuery>
-                <option name="chatInputElements">
-                  <list>
-                    <ChatInputElement>
-                      <option name="text" value="不用SSH能部署吗" />
-                      <option name="type" value="text" />
-                    </ChatInputElement>
-                  </list>
-                </option>
-                <option name="contextTags">
-                  <list />
-                </option>
-              </ChatRecentQuery>
-              <ChatRecentQuery>
-                <option name="chatInputElements">
-                  <list>
-                    <ChatInputElement>
-                      <option name="text" value="如何新建一个SSH用户名和秘钥" />
-                      <option name="type" value="text" />
-                    </ChatInputElement>
-                  </list>
-                </option>
-                <option name="contextTags">
-                  <list />
-                </option>
-              </ChatRecentQuery>
-              <ChatRecentQuery>
-                <option name="chatInputElements">
-                  <list>
-                    <ChatInputElement>
-                      <option name="text" value="这个是要再jenkins服务器上建吗？" />
-                      <option name="type" value="text" />
-                    </ChatInputElement>
-                  </list>
-                </option>
-                <option name="contextTags">
-                  <list />
-                </option>
-              </ChatRecentQuery>
-              <ChatRecentQuery>
-                <option name="chatInputElements">
-                  <list>
-                    <ChatInputElement>
-                      <option name="text" value="连接docker中的jenkins服务器命令" />
-                      <option name="type" value="text" />
-                    </ChatInputElement>
-                  </list>
-                </option>
-                <option name="contextTags">
-                  <list />
-                </option>
-              </ChatRecentQuery>
-              <ChatRecentQuery>
-                <option name="chatInputElements">
-                  <list>
-                    <ChatInputElement>
-                      <option name="text" value="需要重新启动Jenkins吗" />
-                      <option name="type" value="text" />
-                    </ChatInputElement>
-                  </list>
-                </option>
-                <option name="contextTags">
-                  <list />
-                </option>
-              </ChatRecentQuery>
-              <ChatRecentQuery>
-                <option name="chatInputElements">
-                  <list>
-                    <ChatInputElement>
-                      <option name="text" value="添加的是jenkins-test用户名，在Jenkins上是直接填吗？&#10;" />
-                      <option name="type" value="text" />
-                    </ChatInputElement>
-                  </list>
-                </option>
-                <option name="contextTags">
-                  <list />
-                </option>
-              </ChatRecentQuery>
-              <ChatRecentQuery>
-                <option name="chatInputElements">
-                  <list>
-                    <ChatInputElement>
-                      <option name="text" value="Stage &quot;Deploy to Server via SSH&quot; skipped due to earlier failure(s)&#10;[Pipeline] getContext&#10;[Pipeline] }&#10;[Pipeline] // stage&#10;[Pipeline] stage&#10;[Pipeline] { (Declarative: Post Actions)&#10;[Pipeline] echo&#10; 构建失败，请检查日志。&#10;[Pipeline] }&#10;[Pipeline] // stage&#10;[Pipeline] }&#10;[Pipeline] // withEnv&#10;[Pipeline] }&#10;[Pipeline] // withEnv&#10;[Pipeline] }&#10;[Pipeline] // withEnv&#10;[Pipeline] }&#10;[Pipeline] // node&#10;[Pipeline] End of Pipeline&#10;ERROR: Error fetching remote repo 'origin'&#10;Finished: FAILURE&#10;" />
-                      <option name="type" value="text" />
-                    </ChatInputElement>
-                  </list>
-                </option>
-                <option name="contextTags">
-                  <list />
-                </option>
-              </ChatRecentQuery>
-              <ChatRecentQuery>
-                <option name="chatInputElements">
-                  <list>
-                    <ChatInputElement>
-                      <option name="text" value="SSH_AUTH_SOCK=/tmp/ssh-Ug8PWlWomuYC/agent.2411&#10;SSH_AGENT_PID=2414&#10;Running ssh-add (command line suppressed)&#10;Error loading key &quot;/var/jenkins_home/workspace/testSpring-pipeline@tmp/private_key_16393468653132138954.key&quot;: error in libcrypto&#10;[Pipeline] // sshagent&#10;[Pipeline] }&#10;[Pipeline] // withEnv&#10;[Pipeline] }&#10;[Pipeline] // stage&#10;[Pipeline] stage&#10;[Pipeline] { (Declarative: Post Actions)&#10;[Pipeline] echo&#10; 构建失败，请检查日志。&#10;[Pipeline] }&#10;[Pipeline] // stage&#10;[Pipeline] }&#10;[Pipeline] // withEnv&#10;[Pipeline] }&#10;[Pipeline] // withEnv&#10;[Pipeline] }&#10;[Pipeline] // withEnv&#10;[Pipeline] }&#10;[Pipeline] // node&#10;[Pipeline] End of Pipeline&#10;ERROR: Failed to run ssh-add&#10;Finished: FAILURE&#10;" />
-                      <option name="type" value="text" />
-                    </ChatInputElement>
-                  </list>
-                </option>
-                <option name="contextTags">
-                  <list />
-                </option>
-              </ChatRecentQuery>
-              <ChatRecentQuery>
-                <option name="chatInputElements">
-                  <list>
-                    <ChatInputElement>
-                      <option name="text" value="ssh user@your.server.ip.address &quot;mkdir -p ~/.ssh &amp;&amp; cat &gt;&gt; ~/.ssh/authorized_keys&quot; 这个目标服务器怎么获取，简单表达" />
-                      <option name="type" value="text" />
-                    </ChatInputElement>
-                  </list>
-                </option>
-                <option name="contextTags">
-                  <list>
-                    <ChatContextTag>
-                      <option name="componentType" value="comboBox" />
-                      <option name="contextProvider">
-                        <SuggestPrompt>
-                          <option name="componentType" value="comboBox" />
-                          <option name="contextName" value="selectedCode" />
-                          <option name="drillDownEnable" value="false" />
-                          <option name="enabled" value="true" />
-                          <option name="extra">
-                            <map>
-                              <entry key="contextType">
-                                <value>
-                                  <Object />
-                                </value>
-                              </entry>
-                            </map>
-                          </option>
-                          <option name="hint" value="selectedCode" />
-                          <option name="id" value="858b986a-9b02-4d41-87ef-c7b6b92b44d7" />
-                          <option name="sourceType" value="system" />
-                          <option name="text" value="#selectedCode" />
-                          <option name="type" value="context" />
-                        </SuggestPrompt>
-                      </option>
-                      <option name="endLine" value="12" />
-                      <option name="extra">
-                        <map>
-                          <entry key="contextType">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="endLine">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="fileName">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="filePath">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="selectedItemContent">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="startLine">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                        </map>
-                      </option>
-                      <option name="id" value="E:\workspace\java\testSprint\Jenkinsfile#L12-L12" />
-                      <option name="name" value="E:\workspace\java\testSprint\Jenkinsfile#L12-L12" />
-                      <option name="payload">
-                        <Object />
-                      </option>
-                      <option name="sourceType" value="system" />
-                      <option name="statLine" value="12" />
-                      <option name="text" value="Jenkinsfile" />
-                      <option name="type" value="currentFile" />
-                    </ChatContextTag>
-                  </list>
-                </option>
-              </ChatRecentQuery>
-              <ChatRecentQuery>
-                <option name="chatInputElements">
-                  <list>
-                    <ChatInputElement>
-                      <option name="text" value="可以不设置秘钥吗" />
-                      <option name="type" value="text" />
-                    </ChatInputElement>
-                  </list>
-                </option>
-                <option name="contextTags">
-                  <list />
-                </option>
-              </ChatRecentQuery>
-              <ChatRecentQuery>
-                <option name="chatInputElements">
-                  <list>
-                    <ChatInputElement>
-                      <option name="text" value="秘钥为空可以吗" />
-                      <option name="type" value="text" />
-                    </ChatInputElement>
-                  </list>
-                </option>
-                <option name="contextTags">
-                  <list />
-                </option>
-              </ChatRecentQuery>
-              <ChatRecentQuery>
-                <option name="chatInputElements">
-                  <list>
-                    <ChatInputElement>
-                      <option name="text" value="需要把秘钥上传到目标服务器吗" />
-                      <option name="type" value="text" />
-                    </ChatInputElement>
-                  </list>
-                </option>
-                <option name="contextTags">
-                  <list />
-                </option>
-              </ChatRecentQuery>
-              <ChatRecentQuery>
-                <option name="chatInputElements">
-                  <list>
-                    <ChatInputElement>
-                      <option name="text" value="我用的docker里部署Jenkins，在Jenkins里申请SSH用户，公钥要上传的目标服务器是什么" />
-                      <option name="type" value="text" />
-                    </ChatInputElement>
-                  </list>
-                </option>
-                <option name="contextTags">
-                  <list />
-                </option>
-              </ChatRecentQuery>
-              <ChatRecentQuery>
-                <option name="chatInputElements">
-                  <list>
-                    <ChatInputElement>
-                      <option name="text" value="我是用docker+Jenkins部署的，怎么才能知道目标服务器是什么" />
-                      <option name="type" value="text" />
-                    </ChatInputElement>
-                  </list>
-                </option>
-                <option name="contextTags">
-                  <list />
-                </option>
-              </ChatRecentQuery>
-              <ChatRecentQuery>
-                <option name="chatInputElements">
-                  <list>
-                    <ChatInputElement>
                       <option name="text" value="目标服务器是127.0.0.1，怎么上传到目标服务器，完整的命令" />
                       <option name="type" value="text" />
                     </ChatInputElement>
@@ -627,6 +362,389 @@
                       <option name="type" value="currentFile" />
                     </ChatContextTag>
                   </list>
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="+ docker stop demo-app-container&#10;/var/jenkins_home/workspace/testSpring-pipeline@tmp/durable-5aa8931f/script.sh.copy: 2: docker: not found&#10;+ true&#10;+ docker rm demo-app-container&#10;/var/jenkins_home/workspace/testSpring-pipeline@tmp/durable-5aa8931f/script.sh.copy: 3: docker: not found&#10;+ true&#10;+ docker rmi demo-app:latest&#10;/var/jenkins_home/workspace/testSpring-pipeline@tmp/durable-5aa8931f/script.sh.copy: 4: docker: not found&#10;+ true&#10;+ cd testSpring&#10;/var/jenkins_home/workspace/testSpring-pipeline@tmp/durable-5aa8931f/script.sh.copy: 6: cd: can't cd to testSpring&#10;[Pipeline] }&#10;[Pipeline] // withEnv&#10;[Pipeline] }&#10;[Pipeline] // stage&#10;[Pipeline] stage&#10;[Pipeline] { (Declarative: Post Actions)&#10;[Pipeline] echo&#10; 构建失败，请检查日志。&#10;[Pipeline] }&#10;[Pipeline] // stage&#10;[Pipeline] }&#10;[Pipeline] // withEnv&#10;[Pipeline] }&#10;[Pipeline] // withEnv&#10;[Pipeline] }&#10;[Pipeline] // withEnv&#10;[Pipeline] }&#10;[Pipeline] // node&#10;[Pipeline] End of Pipeline&#10;ERROR: script returned exit code 2&#10;Finished: FAILURE&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="构建并运行 Docker 镜像...&#10;[Pipeline] sh&#10;+ docker stop demo-app-container&#10;permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Post &quot;http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/demo-app-container/stop&quot;: dial unix /var/run/docker.sock: connect: permission denied&#10;+ true&#10;+ docker rm demo-app-container&#10;permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Delete &quot;http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/demo-app-container&quot;: dial unix /var/run/docker.sock: connect: permission denied&#10;+ true&#10;+ docker rmi demo-app:latest&#10;permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Delete &quot;http://%2Fvar%2Frun%2Fdocker.sock/v1.24/images/demo-app:latest&quot;: dial unix /var/run/docker.sock: connect: permission denied&#10;+ true&#10;+ cd testSpring&#10;/var/jenkins_home/workspace/testSpring-pipeline@tmp/durable-863b301d/script.sh.copy: 6: cd: can't cd to testSpring&#10;[Pipeline] }&#10;[Pipeline] // withEnv&#10;[Pipeline] }&#10;[Pipeline] // stage&#10;[Pipeline] stage&#10;[Pipeline] { (Declarative: Post Actions)&#10;[Pipeline] echo&#10; 构建失败，请检查日志。&#10;[Pipeline] }&#10;[Pipeline] // stage&#10;[Pipeline] }&#10;[Pipeline] // withEnv&#10;[Pipeline] }&#10;[Pipeline] // withEnv&#10;[Pipeline] }&#10;[Pipeline] // withEnv&#10;[Pipeline] }&#10;[Pipeline] // node&#10;[Pipeline] End of Pipeline&#10;ERROR: script returned exit code 2&#10;Finished: FAILURE&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="WARNING: You're not using the default seccomp profile&#10;WARNING: DOCKER_INSECURE_NO_IPTABLES_RAW is set&#10;WARNING: daemon is not using the default seccomp profile&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="usermod: group 'docker' does not exist &#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="为了确保管理员安全地安装 Jenkins，密码已写入到日志中（不知道在哪里？）该文件在服务器上：&#10;&#10;/var/jenkins_home/secrets/initialAdminPassword&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="jenkins为什么突然没了" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="+ docker stop demo-app-container&#10;&lt;3&gt;WSL (699 - ) ERROR: UtilBindVsockAnyPort:307: socket failed 38&#10;+ true&#10;+ docker rm demo-app-container&#10;&lt;3&gt;WSL (700 - ) ERROR: UtilBindVsockAnyPort:307: socket failed 38&#10;+ true&#10;+ docker rmi demo-app:latest&#10;&lt;3&gt;WSL (701 - ) ERROR: UtilBindVsockAnyPort:307: socket failed 38&#10;+ true&#10;+ cd testSpring&#10;/var/jenkins_home/workspace/testSpring-pipeline@tmp/durable-d332fb79/script.sh.copy: 6: cd: can't cd to testSpring&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="构建并运行 Docker 镜像...&#10;[Pipeline] sh&#10;+ docker stop demo-app-container&#10;&lt;3&gt;WSL (1720 - ) ERROR: UtilBindVsockAnyPort:307: socket failed 38&#10;+ true&#10;+ docker rm demo-app-container&#10;&lt;3&gt;WSL (1721 - ) ERROR: UtilBindVsockAnyPort:307: socket failed 38&#10;+ true&#10;+ docker rmi demo-app:latest&#10;&lt;3&gt;WSL (1722 - ) ERROR: UtilBindVsockAnyPort:307: socket failed 38&#10;+ true&#10;+ docker build -t demo-app:latest .&#10;&lt;3&gt;WSL (1723 - ) ERROR: UtilBindVsockAnyPort:307: socket failed 38&#10;[Pipeline] }&#10;[Pipeline] // withEnv&#10;[Pipeline] }&#10;[Pipeline] // stage&#10;[Pipeline] stage&#10;[Pipeline] { (Declarative: Post Actions)&#10;[Pipeline] echo&#10; 构建失败，请检查日志。&#10;[Pipeline] }&#10;[Pipeline] // stage&#10;[Pipeline] }&#10;[Pipeline] // withEnv&#10;[Pipeline] }&#10;[Pipeline] // withEnv&#10;[Pipeline] }&#10;[Pipeline] // withEnv&#10;[Pipeline] }&#10;[Pipeline] // node&#10;[Pipeline] End of Pipeline&#10;ERROR: script returned exit code 1&#10;Finished: FAILURE&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="&lt;3&gt;WSL (1723 - ) ERROR: UtilBindVsockAnyPort:307: socket failed 38 如何改用 Docker CLI &#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="file" />
+                          <option name="drillDownEnable" value="true" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="file" />
+                          <option name="id" value="7a0c2792-b1ed-49ec-a82b-d97b16a242b4" />
+                          <option name="sourceType" value="system" />
+                          <option name="text" value="#file" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="fileType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="id" value="E:\workspace\java\testSprint\Jenkinsfile" />
+                      <option name="name" value="E:\workspace\java\testSprint\Jenkinsfile" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="text" value="Jenkinsfile" />
+                      <option name="type" value="file" />
+                    </ChatContextTag>
+                  </list>
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="每次自动加载apt update &amp;&amp; apt install -y docker.io" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="file" />
+                          <option name="drillDownEnable" value="true" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="file" />
+                          <option name="id" value="7a0c2792-b1ed-49ec-a82b-d97b16a242b4" />
+                          <option name="sourceType" value="system" />
+                          <option name="text" value="#file" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="fileType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="id" value="E:\workspace\java\testSprint\Jenkinsfile" />
+                      <option name="name" value="E:\workspace\java\testSprint\Jenkinsfile" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="text" value="Jenkinsfile" />
+                      <option name="type" value="file" />
+                    </ChatContextTag>
+                  </list>
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="+ docker stop demo-app-container&#10;&lt;3&gt;WSL (1234 - ) ERROR: UtilBindVsockAnyPort:307: socket failed 38&#10;+ true&#10;+ docker rm demo-app-container&#10;&lt;3&gt;WSL (1235 - ) ERROR: UtilBindVsockAnyPort:307: socket failed 38&#10;+ true&#10;+ docker rmi demo-app:latest&#10;&lt;3&gt;WSL (1236 - ) ERROR: UtilBindVsockAnyPort:307: socket failed 38&#10;+ true&#10;+ docker build -t demo-app:latest .&#10;&lt;3&gt;WSL (1237 - ) ERROR: UtilBindVsockAnyPort:307: socket failed 38&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="file" />
+                          <option name="drillDownEnable" value="true" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="file" />
+                          <option name="id" value="7a0c2792-b1ed-49ec-a82b-d97b16a242b4" />
+                          <option name="sourceType" value="system" />
+                          <option name="text" value="#file" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="fileType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="id" value="E:\workspace\java\testSprint\Jenkinsfile" />
+                      <option name="name" value="E:\workspace\java\testSprint\Jenkinsfile" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="text" value="Jenkinsfile" />
+                      <option name="type" value="file" />
+                    </ChatContextTag>
+                  </list>
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="使用 WSL2，用了docker run -d `&#10;  --name jenkins `&#10;  -p 8080:8080 `&#10;  -p 50000:50000 `&#10;  -v D:\docker\jenkins:/var/jenkins_home `&#10;  -v &quot;C:/Program Files/Docker/Docker/resources/bin/docker.exe:/usr/bin/docker&quot; `&#10;  -e DOCKER_HOST=tcp://host.docker.internal:2375 `&#10;  jenkins/jenkins 还是不行" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="file" />
+                          <option name="drillDownEnable" value="true" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="file" />
+                          <option name="id" value="7a0c2792-b1ed-49ec-a82b-d97b16a242b4" />
+                          <option name="sourceType" value="system" />
+                          <option name="text" value="#file" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="fileType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="id" value="E:\workspace\java\testSprint\Jenkinsfile" />
+                      <option name="name" value="E:\workspace\java\testSprint\Jenkinsfile" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="text" value="Jenkinsfile" />
+                      <option name="type" value="file" />
+                    </ChatContextTag>
+                  </list>
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="&lt;3&gt;WSL (562 - ) ERROR: UtilGetPpid:1293: Failed to parse: /proc/1/stat, content: 1 (tini) S 0 1 1 0 -1 4194560 649 709 5 179 1 0 0 3 20 0 1 0 241342 2535424 256 18446744073709551615 99350774910976 99350774918429 140735279163248 0 0 0 0 3145728 0 1 0 0 17 12 0 0 0 0 0 99350774930192 99350774932619 99351682088960 140735279168900 140735279168943 140735279168943 140735279169514 0&#10;&lt;3&gt;WSL (562 - ) ERROR: UtilBindVsockAnyPort:307: socket failed 38&#10;+ true&#10;+ docker rm demo-app-container&#10;&lt;3&gt;WSL (563 - ) ERROR: UtilGetPpid:1293: Failed to parse: /proc/1/stat, content: 1 (tini) S 0 1 1 0 -1 4194560 649 709 5 179 1 0 0 3 20 0 1 0 241342 2535424 256 18446744073709551615 99350774910976 99350774918429 140735279163248 0 0 0 0 3145728 0 1 0 0 17 12 0 0 0 0 0 99350774930192 99350774932619 99351682088960 140735279168900 140735279168943 140735279168943 140735279169514 0&#10;&lt;3&gt;WSL (563 - ) ERROR: UtilBindVsockAnyPort:307: socket failed 38&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="Docker Desktop怎么查看日志" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="2025-06-15 06:55:59.349+0000 [id=131]&#9;WARNING&#9;o.j.p.w.f.FlowExecutionList$DefaultStorage#unregister: test#6 was not in the list to begin with: []&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
                 </option>
               </ChatRecentQuery>
             </list>
