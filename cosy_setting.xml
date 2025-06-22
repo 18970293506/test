@@ -8,7 +8,7 @@
     <option name="chatModeUseTool" value="true" />
     <option name="chatModelSelected">
       <map>
-        <entry key="E:/workspace/java/testSprint-chat" value="default" />
+        <entry key="E:/workspace/java/testSprint-chat" value="dashscope_qwen_plus_20250428_thinking" />
         <entry key="E:/workspace/java/untitled-assistant" value="default" />
         <entry key="E:/workspace/java/untitled-chat" value="default" />
         <entry key="F:/workspace/muke/Test2020-chat" value="default" />
@@ -89,320 +89,6 @@
         <entry key="testSprint|1398532400414239|AiAssistantAgent">
           <value>
             <list>
-              <ChatRecentQuery>
-                <option name="chatInputElements">
-                  <list>
-                    <ChatInputElement>
-                      <option name="text" value="目标服务器是127.0.0.1，怎么上传到目标服务器，完整的命令" />
-                      <option name="type" value="text" />
-                    </ChatInputElement>
-                  </list>
-                </option>
-                <option name="contextTags">
-                  <list />
-                </option>
-              </ChatRecentQuery>
-              <ChatRecentQuery>
-                <option name="chatInputElements">
-                  <list>
-                    <ChatInputElement>
-                      <option name="text" value="cat ~/.ssh/id_rsa_jenkins.pub | ssh id_rsa_jenkins@127.0.0.1 &quot;mkdir -p ~/.ssh &amp;&amp; cat &gt;&gt; ~/.ssh/authorized_keys &amp;&amp; chmod 600 ~/.ssh/authorized_keys &amp;&amp; chmod 700 ~/.ssh&quot; 这个命令对吗" />
-                      <option name="type" value="text" />
-                    </ChatInputElement>
-                  </list>
-                </option>
-                <option name="contextTags">
-                  <list />
-                </option>
-              </ChatRecentQuery>
-              <ChatRecentQuery>
-                <option name="chatInputElements">
-                  <list>
-                    <ChatInputElement>
-                      <option name="text" value="+ docker stop demo-app-container&#10;permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Post &quot;http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/demo-app-container/stop&quot;: dial unix /var/run/docker.sock: connect: permission denied&#10;+ true&#10;+ docker rm demo-app-container&#10;permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Delete &quot;http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/demo-app-container&quot;: dial unix /var/run/docker.sock: connect: permission denied&#10;+ true&#10;+ docker rmi demo-app:latest&#10;permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Delete &quot;http://%2Fvar%2Frun%2Fdocker.sock/v1.24/images/demo-app:latest&quot;: dial unix /var/run/docker.sock: connect: permission denied&#10;+ true&#10;+ cd testSpring&#10;/var/jenkins_home/workspace/testSpring-pipeline@tmp/durable-36666f33/script.sh.copy: 6: cd: can't cd to testSpring&#10;[Pipeline] }&#10;[Pipeline] // withEnv&#10;[Pipeline] }&#10;[Pipeline] // stage&#10;[Pipeline] stage&#10;[Pipeline] { (Declarative: Post Actions)&#10;[Pipeline] echo&#10; 构建失败，请检查日志。&#10;[Pipeline] }&#10;[Pipeline] // stage&#10;[Pipeline] }&#10;[Pipeline] // withEnv&#10;[Pipeline] }&#10;[Pipeline] // withEnv&#10;[Pipeline] }&#10;[Pipeline] // withEnv&#10;[Pipeline] }&#10;[Pipeline] // node&#10;[Pipeline] End of Pipeline&#10;ERROR: script returned exit code 2&#10;Finished: FAILURE&#10;" />
-                      <option name="type" value="text" />
-                    </ChatInputElement>
-                  </list>
-                </option>
-                <option name="contextTags">
-                  <list>
-                    <ChatContextTag>
-                      <option name="componentType" value="comboBox" />
-                      <option name="contextProvider">
-                        <SuggestPrompt>
-                          <option name="componentType" value="comboBox" />
-                          <option name="contextName" value="selectedCode" />
-                          <option name="drillDownEnable" value="false" />
-                          <option name="enabled" value="true" />
-                          <option name="extra">
-                            <map>
-                              <entry key="contextType">
-                                <value>
-                                  <Object />
-                                </value>
-                              </entry>
-                            </map>
-                          </option>
-                          <option name="hint" value="selectedCode" />
-                          <option name="id" value="858b986a-9b02-4d41-87ef-c7b6b92b44d7" />
-                          <option name="sourceType" value="system" />
-                          <option name="text" value="#selectedCode" />
-                          <option name="type" value="context" />
-                        </SuggestPrompt>
-                      </option>
-                      <option name="endLine" value="66" />
-                      <option name="extra">
-                        <map>
-                          <entry key="contextType">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="endLine">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="fileName">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="filePath">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="selectedItemContent">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="startLine">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                        </map>
-                      </option>
-                      <option name="id" value="E:\workspace\java\testSprint\Jenkinsfile#L1-L66" />
-                      <option name="name" value="E:\workspace\java\testSprint\Jenkinsfile#L1-L66" />
-                      <option name="payload">
-                        <Object />
-                      </option>
-                      <option name="sourceType" value="system" />
-                      <option name="statLine" value="1" />
-                      <option name="text" value="Jenkinsfile" />
-                      <option name="type" value="currentFile" />
-                    </ChatContextTag>
-                  </list>
-                </option>
-              </ChatRecentQuery>
-              <ChatRecentQuery>
-                <option name="chatInputElements">
-                  <list>
-                    <ChatInputElement>
-                      <option name="text" value="关闭并情况 Jenkins" />
-                      <option name="type" value="text" />
-                    </ChatInputElement>
-                  </list>
-                </option>
-                <option name="contextTags">
-                  <list>
-                    <ChatContextTag>
-                      <option name="componentType" value="comboBox" />
-                      <option name="contextProvider">
-                        <SuggestPrompt>
-                          <option name="componentType" value="comboBox" />
-                          <option name="contextName" value="selectedCode" />
-                          <option name="drillDownEnable" value="false" />
-                          <option name="enabled" value="true" />
-                          <option name="extra">
-                            <map>
-                              <entry key="contextType">
-                                <value>
-                                  <Object />
-                                </value>
-                              </entry>
-                            </map>
-                          </option>
-                          <option name="hint" value="selectedCode" />
-                          <option name="id" value="858b986a-9b02-4d41-87ef-c7b6b92b44d7" />
-                          <option name="sourceType" value="system" />
-                          <option name="text" value="#selectedCode" />
-                          <option name="type" value="context" />
-                        </SuggestPrompt>
-                      </option>
-                      <option name="endLine" value="66" />
-                      <option name="extra">
-                        <map>
-                          <entry key="contextType">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="endLine">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="fileName">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="filePath">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="selectedItemContent">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="startLine">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                        </map>
-                      </option>
-                      <option name="id" value="E:\workspace\java\testSprint\Jenkinsfile#L1-L66" />
-                      <option name="name" value="E:\workspace\java\testSprint\Jenkinsfile#L1-L66" />
-                      <option name="payload">
-                        <Object />
-                      </option>
-                      <option name="sourceType" value="system" />
-                      <option name="statLine" value="1" />
-                      <option name="text" value="Jenkinsfile" />
-                      <option name="type" value="currentFile" />
-                    </ChatContextTag>
-                  </list>
-                </option>
-              </ChatRecentQuery>
-              <ChatRecentQuery>
-                <option name="chatInputElements">
-                  <list>
-                    <ChatInputElement>
-                      <option name="text" value="which : 无法将“which”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正&#10;确，然后再试一次。&#10;所在位置 行:7 字符: 8&#10;+   -v $(which docker):/usr/bin/docker `&#10;+        ~~~~~&#10;    + CategoryInfo          : ObjectNotFound: (which:String) [], CommandNotFoundException&#10;    + FullyQualifiedErrorId : CommandNotFoundException&#10;&#10;docker: invalid spec: :/usr/bin/docker: empty section between colons&#10;&#10;Run 'docker run --help' for more information&#10;" />
-                      <option name="type" value="text" />
-                    </ChatInputElement>
-                  </list>
-                </option>
-                <option name="contextTags">
-                  <list>
-                    <ChatContextTag>
-                      <option name="componentType" value="comboBox" />
-                      <option name="contextProvider">
-                        <SuggestPrompt>
-                          <option name="componentType" value="comboBox" />
-                          <option name="contextName" value="selectedCode" />
-                          <option name="drillDownEnable" value="false" />
-                          <option name="enabled" value="true" />
-                          <option name="extra">
-                            <map>
-                              <entry key="contextType">
-                                <value>
-                                  <Object />
-                                </value>
-                              </entry>
-                            </map>
-                          </option>
-                          <option name="hint" value="selectedCode" />
-                          <option name="id" value="858b986a-9b02-4d41-87ef-c7b6b92b44d7" />
-                          <option name="sourceType" value="system" />
-                          <option name="text" value="#selectedCode" />
-                          <option name="type" value="context" />
-                        </SuggestPrompt>
-                      </option>
-                      <option name="endLine" value="66" />
-                      <option name="extra">
-                        <map>
-                          <entry key="contextType">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="endLine">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="fileName">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="filePath">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="selectedItemContent">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="startLine">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                        </map>
-                      </option>
-                      <option name="id" value="E:\workspace\java\testSprint\Jenkinsfile#L1-L66" />
-                      <option name="name" value="E:\workspace\java\testSprint\Jenkinsfile#L1-L66" />
-                      <option name="payload">
-                        <Object />
-                      </option>
-                      <option name="sourceType" value="system" />
-                      <option name="statLine" value="1" />
-                      <option name="text" value="Jenkinsfile" />
-                      <option name="type" value="currentFile" />
-                    </ChatContextTag>
-                  </list>
-                </option>
-              </ChatRecentQuery>
-              <ChatRecentQuery>
-                <option name="chatInputElements">
-                  <list>
-                    <ChatInputElement>
-                      <option name="text" value="+ docker stop demo-app-container&#10;/var/jenkins_home/workspace/testSpring-pipeline@tmp/durable-5aa8931f/script.sh.copy: 2: docker: not found&#10;+ true&#10;+ docker rm demo-app-container&#10;/var/jenkins_home/workspace/testSpring-pipeline@tmp/durable-5aa8931f/script.sh.copy: 3: docker: not found&#10;+ true&#10;+ docker rmi demo-app:latest&#10;/var/jenkins_home/workspace/testSpring-pipeline@tmp/durable-5aa8931f/script.sh.copy: 4: docker: not found&#10;+ true&#10;+ cd testSpring&#10;/var/jenkins_home/workspace/testSpring-pipeline@tmp/durable-5aa8931f/script.sh.copy: 6: cd: can't cd to testSpring&#10;[Pipeline] }&#10;[Pipeline] // withEnv&#10;[Pipeline] }&#10;[Pipeline] // stage&#10;[Pipeline] stage&#10;[Pipeline] { (Declarative: Post Actions)&#10;[Pipeline] echo&#10; 构建失败，请检查日志。&#10;[Pipeline] }&#10;[Pipeline] // stage&#10;[Pipeline] }&#10;[Pipeline] // withEnv&#10;[Pipeline] }&#10;[Pipeline] // withEnv&#10;[Pipeline] }&#10;[Pipeline] // withEnv&#10;[Pipeline] }&#10;[Pipeline] // node&#10;[Pipeline] End of Pipeline&#10;ERROR: script returned exit code 2&#10;Finished: FAILURE&#10;" />
-                      <option name="type" value="text" />
-                    </ChatInputElement>
-                  </list>
-                </option>
-                <option name="contextTags">
-                  <list />
-                </option>
-              </ChatRecentQuery>
-              <ChatRecentQuery>
-                <option name="chatInputElements">
-                  <list>
-                    <ChatInputElement>
-                      <option name="text" value="构建并运行 Docker 镜像...&#10;[Pipeline] sh&#10;+ docker stop demo-app-container&#10;permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Post &quot;http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/demo-app-container/stop&quot;: dial unix /var/run/docker.sock: connect: permission denied&#10;+ true&#10;+ docker rm demo-app-container&#10;permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Delete &quot;http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/demo-app-container&quot;: dial unix /var/run/docker.sock: connect: permission denied&#10;+ true&#10;+ docker rmi demo-app:latest&#10;permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Delete &quot;http://%2Fvar%2Frun%2Fdocker.sock/v1.24/images/demo-app:latest&quot;: dial unix /var/run/docker.sock: connect: permission denied&#10;+ true&#10;+ cd testSpring&#10;/var/jenkins_home/workspace/testSpring-pipeline@tmp/durable-863b301d/script.sh.copy: 6: cd: can't cd to testSpring&#10;[Pipeline] }&#10;[Pipeline] // withEnv&#10;[Pipeline] }&#10;[Pipeline] // stage&#10;[Pipeline] stage&#10;[Pipeline] { (Declarative: Post Actions)&#10;[Pipeline] echo&#10; 构建失败，请检查日志。&#10;[Pipeline] }&#10;[Pipeline] // stage&#10;[Pipeline] }&#10;[Pipeline] // withEnv&#10;[Pipeline] }&#10;[Pipeline] // withEnv&#10;[Pipeline] }&#10;[Pipeline] // withEnv&#10;[Pipeline] }&#10;[Pipeline] // node&#10;[Pipeline] End of Pipeline&#10;ERROR: script returned exit code 2&#10;Finished: FAILURE&#10;" />
-                      <option name="type" value="text" />
-                    </ChatInputElement>
-                  </list>
-                </option>
-                <option name="contextTags">
-                  <list />
-                </option>
-              </ChatRecentQuery>
-              <ChatRecentQuery>
-                <option name="chatInputElements">
-                  <list>
-                    <ChatInputElement>
-                      <option name="text" value="WARNING: You're not using the default seccomp profile&#10;WARNING: DOCKER_INSECURE_NO_IPTABLES_RAW is set&#10;WARNING: daemon is not using the default seccomp profile&#10;" />
-                      <option name="type" value="text" />
-                    </ChatInputElement>
-                  </list>
-                </option>
-                <option name="contextTags">
-                  <list />
-                </option>
-              </ChatRecentQuery>
               <ChatRecentQuery>
                 <option name="chatInputElements">
                   <list>
@@ -745,6 +431,486 @@
                 </option>
                 <option name="contextTags">
                   <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="Get &quot;https://registry-1.docker.io/v2/&quot;: context deadline exceeded (Client.Timeout exceeded while awaiting headers)&#10;[Pipeline] }&#10;[Pipeline] // withEnv&#10;[Pipeline] }&#10;[Pipeline] // stage&#10;[Pipeline] stage&#10;[Pipeline] { (Declarative: Post Actions)&#10;[Pipeline] echo&#10; 构建失败，请检查日志。&#10;[Pipeline] }&#10;[Pipeline] // stage&#10;[Pipeline] }&#10;[Pipeline] // withEnv&#10;[Pipeline] }&#10;[Pipeline] // withEnv&#10;[Pipeline] }&#10;[Pipeline] // withEnv&#10;[Pipeline] }&#10;[Pipeline] // node&#10;[Pipeline] End of Pipeline&#10;ERROR: script returned exit code 1&#10;Finished: FAILURE&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="file" />
+                          <option name="drillDownEnable" value="true" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="file" />
+                          <option name="id" value="7a0c2792-b1ed-49ec-a82b-d97b16a242b4" />
+                          <option name="sourceType" value="system" />
+                          <option name="text" value="#file" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="fileType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="id" value="E:\workspace\java\testSprint\Jenkinsfile" />
+                      <option name="name" value="E:\workspace\java\testSprint\Jenkinsfile" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="text" value="Jenkinsfile" />
+                      <option name="type" value="file" />
+                    </ChatContextTag>
+                  </list>
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="Get &quot;https://registry-1.docker.io/v2/&quot;: context deadline exceeded (Client.Timeout exceeded while awaiting headers)&#10;[Pipeline] }&#10;[Pipeline] // withEnv&#10;[Pipeline] }&#10;[Pipeline] // stage&#10;[Pipeline] stage&#10;[Pipeline] { (Declarative: Post Actions)&#10;[Pipeline] echo&#10; 构建失败，请检查日志。&#10;[Pipeline] }&#10;[Pipeline] // stage&#10;[Pipeline] }&#10;[Pipeline] // withEnv&#10;[Pipeline] }&#10;[Pipeline] // withEnv&#10;[Pipeline] }&#10;[Pipeline] // withEnv&#10;[Pipeline] }&#10;[Pipeline] // node&#10;[Pipeline] End of Pipeline&#10;ERROR: script returned exit code 1&#10;Finished: FAILURE&#10;&#10;用的是docker+Jenkins+git部署，系统是unbutu" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="file" />
+                          <option name="drillDownEnable" value="true" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="file" />
+                          <option name="id" value="7a0c2792-b1ed-49ec-a82b-d97b16a242b4" />
+                          <option name="sourceType" value="system" />
+                          <option name="text" value="#file" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="fileType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="id" value="E:\workspace\java\testSprint\Jenkinsfile" />
+                      <option name="name" value="E:\workspace\java\testSprint\Jenkinsfile" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="text" value="Jenkinsfile" />
+                      <option name="type" value="file" />
+                    </ChatContextTag>
+                  </list>
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="Get &quot;https://registry-1.docker.io/v2/&quot;: context deadline exceeded (Client.Timeout exceeded while awaiting headers) &#10;用的是本地docker+Jenkins+git部署，系统是unbutu&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="file" />
+                          <option name="drillDownEnable" value="true" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="file" />
+                          <option name="id" value="7a0c2792-b1ed-49ec-a82b-d97b16a242b4" />
+                          <option name="sourceType" value="system" />
+                          <option name="text" value="#file" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="fileType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="id" value="E:\workspace\java\testSprint\Jenkinsfile" />
+                      <option name="name" value="E:\workspace\java\testSprint\Jenkinsfile" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="text" value="Jenkinsfile" />
+                      <option name="type" value="file" />
+                    </ChatContextTag>
+                  </list>
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="Get &quot;https://registry-1.docker.io/v2/&quot;: context deadline exceeded (Client.Timeout exceeded while awaiting headers) 用的是本地docker+Jenkins+git部署，系统是unbutu&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="file" />
+                          <option name="drillDownEnable" value="true" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="file" />
+                          <option name="id" value="7a0c2792-b1ed-49ec-a82b-d97b16a242b4" />
+                          <option name="sourceType" value="system" />
+                          <option name="text" value="#file" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="fileType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="id" value="E:\workspace\java\testSprint\Jenkinsfile" />
+                      <option name="name" value="E:\workspace\java\testSprint\Jenkinsfile" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="text" value="Jenkinsfile" />
+                      <option name="type" value="file" />
+                    </ChatContextTag>
+                  </list>
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="+ docker login -u lang -p ****&#10;WARNING! Using --password via the CLI is insecure. Use --password-stdin.&#10;Error response from daemon: Get &quot;https://registry-1.docker.io/v2/&quot;: context deadline exceeded (Client.Timeout exceeded while awaiting headers)&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="file" />
+                          <option name="drillDownEnable" value="true" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="file" />
+                          <option name="id" value="7a0c2792-b1ed-49ec-a82b-d97b16a242b4" />
+                          <option name="sourceType" value="system" />
+                          <option name="text" value="#file" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="fileType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="id" value="E:\workspace\java\testSprint\Jenkinsfile" />
+                      <option name="name" value="E:\workspace\java\testSprint\Jenkinsfile" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="text" value="Jenkinsfile" />
+                      <option name="type" value="file" />
+                    </ChatContextTag>
+                  </list>
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="给出完整的改正" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="file" />
+                          <option name="drillDownEnable" value="true" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="file" />
+                          <option name="id" value="7a0c2792-b1ed-49ec-a82b-d97b16a242b4" />
+                          <option name="sourceType" value="system" />
+                          <option name="text" value="#file" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="fileType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="id" value="E:\workspace\java\testSprint\Jenkinsfile" />
+                      <option name="name" value="E:\workspace\java\testSprint\Jenkinsfile" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="text" value="Jenkinsfile" />
+                      <option name="type" value="file" />
+                    </ChatContextTag>
+                  </list>
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="我直接这么写会有问题吗" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="file" />
+                          <option name="drillDownEnable" value="true" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="file" />
+                          <option name="id" value="7a0c2792-b1ed-49ec-a82b-d97b16a242b4" />
+                          <option name="sourceType" value="system" />
+                          <option name="text" value="#file" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="fileType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="id" value="E:\workspace\java\testSprint\Jenkinsfile" />
+                      <option name="name" value="E:\workspace\java\testSprint\Jenkinsfile" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="text" value="Jenkinsfile" />
+                      <option name="type" value="file" />
+                    </ChatContextTag>
+                  </list>
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="# 检查Docker守护进程配置&#10;docker info | grep Mirrors&#10;&#10;# 测试Docker Hub连接&#10;curl -v https://registry-1.docker.io/v2/ 网络不可达 &#10; " />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="file" />
+                          <option name="drillDownEnable" value="true" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="file" />
+                          <option name="id" value="7a0c2792-b1ed-49ec-a82b-d97b16a242b4" />
+                          <option name="sourceType" value="system" />
+                          <option name="text" value="#file" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="fileType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="id" value="E:\workspace\java\testSprint\Jenkinsfile" />
+                      <option name="name" value="E:\workspace\java\testSprint\Jenkinsfile" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="text" value="Jenkinsfile" />
+                      <option name="type" value="file" />
+                    </ChatContextTag>
+                  </list>
                 </option>
               </ChatRecentQuery>
             </list>
